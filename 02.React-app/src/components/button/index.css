@@ -1,0 +1,23 @@
+button {
+  padding: 10px;
+  background-color: teal;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  border: 1px solid transparent;
+}
+button:hover {
+  color: teal;
+  border: 1px solid teal;
+  background-color: transparent;
+  border: 1px solid teal;
+  transition: all 0.6s;
+}
+button.bg-orange {
+  background-color: orange;
+  border: 1px solid orange;
+}
+button.bg-orange:hover {
+  background-color: transparent;
+  color: orange;
+}
