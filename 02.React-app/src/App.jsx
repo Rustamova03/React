@@ -1,15 +1,20 @@
 import "./app.css";
 import Button from "./components/button";
-import Footer from "./layouts/footer";
-import Header from "./layouts/header";
-import HomePage from "./pages/home-page";
+import Counter from "./components/counter";
+
+// import Footer from "./layouts/footer";
+// import Header from "./layouts/header";
+// import HomePage from "./pages/home-page";
 
 export function App() {
   return (
     <>
-      <Header />
+      {/* <Header />
       <HomePage />
-      <Footer />
+      <Footer /> */}
+      <Counter/>
+      <Button/>
+
     </>
   );
 }

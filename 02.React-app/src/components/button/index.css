@@ -1,4 +1,4 @@
-button {
+/* button {
   padding: 10px;
   background-color: teal;
   color: white;
@@ -20,4 +20,7 @@ button.bg-orange {
 button.bg-orange:hover {
   background-color: transparent;
   color: orange;
+} */
+.button{
+text-align: center;
 }
